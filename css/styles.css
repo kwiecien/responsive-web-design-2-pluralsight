@@ -152,7 +152,13 @@ main {
     margin: 0.75rem 0 0 2%;
     color: #6e67aa; }
   main p {
-    line-height: 130%; }
+    line-height: 130%;
+    margin: 0 2%; }
+  main figure {
+    width: 96%;
+    margin-left: 2%; }
+  main figure img {
+    width: 100%; }
 
 /*  ------------- FOOTER -------------  */
 footer {
@@ -181,7 +187,15 @@ footer {
     header h1 {
       padding-top: 50px; }
 
-  /* ------------- MAIN ------------- */ }
+  /* ------------- MAIN ------------- */
+  main {
+    max-width: 100em;
+    /* 1600px/16px; */
+    margin: 0 auto; }
+    main figure {
+      width: 50%;
+      margin-right: 2%;
+      float: right; } }
 @media only screen and (min-width: 64em) {
   /* ------------- HEADER ------------- */
   header {
