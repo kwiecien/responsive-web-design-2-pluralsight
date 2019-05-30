@@ -97,12 +97,11 @@ main {
 		margin: 0 $gutter;
 	} // end p
 
-    figure {
-		width: 96%;
-		margin-left: $gutter;
+    article {
+		margin: .5rem $gutter;
 	}
 
-	figure img {
+	figure.photo-pd, figure.photo-pd img {
 		width: 100%;
 	}
 

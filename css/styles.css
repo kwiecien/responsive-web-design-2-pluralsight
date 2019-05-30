@@ -159,10 +159,9 @@ main {
   main p {
     line-height: 130%;
     margin: 0 2%; }
-  main figure {
-    width: 96%;
-    margin-left: 2%; }
-  main figure img {
+  main article {
+    margin: 0.5rem 2%; }
+  main figure.photo-pd, main figure.photo-pd img {
     width: 100%; }
 
 /*  ------------- FOOTER -------------  */
