@@ -197,10 +197,10 @@ footer {
     max-width: 100em;
     /* 1600px/16px; */
     margin: 0 auto; }
-    main figure {
-      width: 50%;
-      margin-right: 2%;
-      float: right; } }
+    main article.multiCol {
+      column-count: 2;
+      column-rule: 1px solid #d0aa94;
+      column-gap: 2%; } }
 @media only screen and (min-width: 64em) {
   /* ------------- HEADER ------------- */
   header {
@@ -218,6 +218,10 @@ footer {
   nav ul li a {
     padding: .5rem 1rem; }
 
-  /* ------------- MAIN ------------- */ }
+  /* ------------- MAIN ------------- */
+  main article.multiCol {
+    column-count: 3;
+    column-rule: 1px solid #d0aa94;
+    column-gap: 2%; } }
 
 /*# sourceMappingURL=styles.css.map */

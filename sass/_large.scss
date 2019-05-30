@@ -31,3 +31,10 @@ nav {
 
 
 /* ------------- MAIN ------------- */
+main {
+  article.multiCol {
+    column-count: 3;
+    column-rule: 1px solid $secondaryColor;
+    column-gap: $gutter;
+  }
+}
